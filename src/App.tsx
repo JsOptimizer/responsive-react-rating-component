@@ -8,7 +8,7 @@ function App() {
   return (
       <main className="w-screen h-[100dvh] bg-secondary-900 flex items-center justify-center">
         {!isSubmit&&(
-           <RatingCard setRating={setRating} setIsSubmit={setIsSubmit} />
+           <RatingCard setRating={setRating} setIsSubmit={setIsSubmit} rating={rating} />
         ) }
         {
           isSubmit&&(
