@@ -1,4 +1,3 @@
-import { MouseEventHandler } from "react";
 import startIcon from "../assets/images/icon-star.svg";
 import { cn } from "../lib/util";
 
